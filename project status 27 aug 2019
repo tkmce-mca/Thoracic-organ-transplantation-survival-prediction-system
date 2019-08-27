@@ -1,0 +1,14 @@
+Searched about various feature selection algorithms.
+Techniques for Feature Selection can be divided in two approaches: feature ranking and subset selection. 
+In the first approach, features are ranked by some criteria and then features above a defined threshold are selected. 
+In the second approach,one searches a space of feature subsets for the optimal subset.
+Available Feature Ranking Techniques.
+All the listed techniques below can be used to generate rank weights for features.
+Chi-squared Filter
+Correlation Filter
+Entropy-Based Filter
+Random Forest Filter
+
+
+
+Instead of manually filtering the attributes we are planning to apply these techniques to filter our dataset.
