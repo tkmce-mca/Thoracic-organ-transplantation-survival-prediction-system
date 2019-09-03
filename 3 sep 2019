@@ -1,0 +1,7 @@
+Started studying about various feature extraction method
+
+Chi-square Test for Feature Extraction: 
+Chi-square test is used for categorical features in a dataset. We calculate Chi-square between each 
+feature and the target and select the desired number of features with best Chi-square scores. 
+It determines if the association between two categorical variables of the sample would reflect 
+their real association in the population.
