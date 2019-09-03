@@ -5,3 +5,11 @@ Chi-square test is used for categorical features in a dataset. We calculate Chi-
 feature and the target and select the desired number of features with best Chi-square scores. 
 It determines if the association between two categorical variables of the sample would reflect 
 their real association in the population.
+
+
+chi square score is given by = (observed frequency- expected frequency)^2/ expected frequency
+
+
+Observed frequency = No. of observations of class
+Expected frequency = No. of expected observations of class if there was no relationship between the feature and the target.
+                              
