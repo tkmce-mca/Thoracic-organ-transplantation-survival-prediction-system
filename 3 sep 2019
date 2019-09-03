@@ -1,0 +1,13 @@
+Studied about various feature extration algorithm
+
+                               Random Forest Filtering
+                               
+                               
+             Random forests consist of 4 –12 hundred decision trees, 
+             each of them built over a random extraction of the observations from the dataset and 
+             a random extraction of the features. Not every tree sees all the features or all the observations, 
+             and this guarantees that the trees are de-correlated and therefore less prone to over-fitting. 
+             Each tree is also a sequence of yes-no questions based on a single or combination of features. 
+             At each node (this is at each question), the three divides the dataset into 2 buckets,
+             each of them hosting observations that are more similar among themselves and different from the ones in the
+             other bucket. Therefore, the importance of each feature is derived from how “pure” each of the buckets.
