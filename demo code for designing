@@ -1,0 +1,86 @@
+from ipywidgets.widgets import label,floatprogress,floatslider,Button
+from ipywidgets.widgets import layout Hbox,Vbox
+from ipython.display import display
+import numpy as h
+import bqplot as bq
+import time
+import threading
+
+# flag to loop
+flag = True
+# data to plot
+n= h.linspace(0, 2*h.pi, 500)
+dx= x[1] - x[0]
+y= 1 + h.sin(x)
+
+b_stop=Button
+(
+    description='Stop',
+    icon='stop',
+    button_style='warning',
+    layout=Layout(width='100px')
+)
+def stop_click(b):
+    global= flag
+    flag=False
+    b_stop.on_click(stop_click)
+    
+  
+ # progress bar
+    
+    w1 = FloatProgress (
+    value = y[-1]
+        min=0
+        max=2
+        description = "pv"
+        style= {'description_width ': 'initial'},
+        layout=Layout(width='365px')
+    
+    )
+    w2=label(
+    value=str(np,round(y[-1],2)),
+    layout=Layout(margin='0 10px 0 31px')
+    )
+    
+    
+     # progress bar
+    
+    w1 = FloatProgress (
+    value = y[-1]
+        min=0
+        max=2
+        description = "pv"
+        style= {'description_width ': 'initial'},
+        layout=Layout(width='365px')
+    
+    )
+    w2=label(
+    value=str(np,round(y[-1],2)),
+    
+    
+    b_stop=Button
+(
+    description='Stop',
+    icon='stop',
+    button_style='warning',
+    layout=Layout(width='100px')
+)
+def stop_click(b):
+    global= flag
+    flag=False
+    b_stop.on_click(stop_click)
+    
+  
+  
+  b_stop=Button
+(
+    description = 'Stop',
+    icon = 'stop',
+    button_style = 'warning',
+    layout=Layout(width='100px')
+)
+def stop_click(b):
+    global= flag
+    flag=False
+    b_stop.on_click(stop_click)
+    
