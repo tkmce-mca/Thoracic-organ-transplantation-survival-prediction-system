@@ -1,0 +1,10 @@
+Things which are completed:
+                   
+                           Dropped the plan for selecting the data pre-processing algorithms
+                           So we filtered the current data set again manually
+                           Now we have a dataset containing features list between the range 90 - 100
+                           
+               
+Plan for the current week:
+       
+                          We are planning to implement one of the classification algorithms using the current filtered dataset  
