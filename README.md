@@ -2,4 +2,4 @@
 prediction of survival after thoracic organ transplantation
 
 
-![](https://www.uclahealth.org/anes/images/our-specialties/Thoracic-Anesthesiology.jpg)
+![](https://ctsurgery.weillcornell.org/sites/default/files/pages/background_thoracic.jpg)
