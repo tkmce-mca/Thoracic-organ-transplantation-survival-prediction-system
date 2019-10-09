@@ -2,4 +2,4 @@
 prediction of survival after thoracic organ transplantation
 
 
-![THORACIC](F:\aa.jpg)
+![](F:\aa.jpg)
